@@ -1,0 +1,15 @@
+{
+  "benchmark_name": "AIME-2025",
+  "dataset_name": "decontaminated",
+  "test_set_size": 30,
+  "training_set_size": 28507,
+  "contaminated_test_examples": 1,
+  "contaminated_train_examples": 1,
+  "contamination_rate_percent": 3.3333333333333335,
+  "test_indices_contaminated": [
+    11
+  ],
+  "train_indices_contaminated": [
+    11871
+  ]
+}

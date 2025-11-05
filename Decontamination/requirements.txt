@@ -1,0 +1,9 @@
+# LLM Dataset Contamination Detection
+# Requirements for Overlapy-based contamination detection
+
+# Core dependency for contamination detection
+overlapy>=0.1.0
+
+# Standard data processing (usually pre-installed)
+# but listed here for completeness
+

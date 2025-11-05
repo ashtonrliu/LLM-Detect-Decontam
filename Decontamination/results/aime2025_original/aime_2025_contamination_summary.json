@@ -1,0 +1,39 @@
+{
+  "benchmark_name": "AIME-2025",
+  "dataset_name": "original",
+  "test_set_size": 30,
+  "training_set_size": 30000,
+  "contaminated_test_examples": 6,
+  "contaminated_train_examples": 20,
+  "contamination_rate_percent": 20.0,
+  "test_indices_contaminated": [
+    6,
+    7,
+    10,
+    11,
+    13,
+    20
+  ],
+  "train_indices_contaminated": [
+    10088,
+    10233,
+    10252,
+    11894,
+    12300,
+    12613,
+    12624,
+    12685,
+    13674,
+    14546,
+    14688,
+    15048,
+    15184,
+    16265,
+    16398,
+    17194,
+    17410,
+    18791,
+    23268,
+    28844
+  ]
+}

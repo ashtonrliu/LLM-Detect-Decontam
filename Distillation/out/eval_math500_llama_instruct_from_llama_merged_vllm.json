@@ -1,0 +1,44 @@
+{
+  "model_id": "out/students/llama_instruct_from_llama_merged",
+  "data_path": "data/math500.jsonl",
+  "num_examples": 500,
+  "prefix_ratios": [
+    1.0,
+    0.8,
+    0.6,
+    0.4
+  ],
+  "correct_counts": {
+    "1.0": 92,
+    "0.8": 39,
+    "0.6": 22,
+    "0.4": 11
+  },
+  "accuracies": {
+    "1.0": 0.184,
+    "0.8": 0.078,
+    "0.6": 0.044,
+    "0.4": 0.022
+  },
+  "avg_rougeL_f": {
+    "1.0": 0.0,
+    "0.8": 0.049948058873822115,
+    "0.6": 0.09674406348269045,
+    "0.4": 0.12626759694658185
+  },
+  "no_boxed_counts": {
+    "1.0": 247,
+    "0.8": 276,
+    "0.6": 280,
+    "0.4": 282
+  },
+  "no_boxed_ratios": {
+    "1.0": 0.494,
+    "0.8": 0.552,
+    "0.6": 0.56,
+    "0.4": 0.564
+  },
+  "max_new_tokens": 2048,
+  "temperature": 0.0,
+  "inference_engine": "vllm"
+}

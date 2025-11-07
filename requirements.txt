@@ -1,9 +1,38 @@
-# LLM Dataset Contamination Detection
-# Requirements for Overlapy-based contamination detection
+# LLM Dataset Contamination Detection & Knowledge Distillation Pipeline
+# Python 3.10+ required
 
-# Core dependency for contamination detection
+# ===== Core Dependencies =====
+
+# Contamination Detection
 overlapy>=0.0.1
 
-# Standard data processing (usually pre-installed)
-# but listed here for completeness
+# Deep Learning Frameworks
+torch>=2.0.0
+transformers>=4.40.0
 
+# High-Performance Inference
+vllm>=0.7.0
+
+# Parameter-Efficient Fine-Tuning
+peft>=0.10.0
+bitsandbytes>=0.43.0
+
+# Training Utilities
+accelerate>=0.27.0
+datasets>=2.14.0
+
+# ===== Data Processing =====
+numpy>=1.24.0
+pandas>=2.0.0
+
+# ===== Evaluation Metrics =====
+rouge-score>=0.1.2
+scipy>=1.10.0
+
+# ===== Visualization =====
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# ===== Utilities =====
+tqdm>=4.65.0
+huggingface-hub>=0.19.0

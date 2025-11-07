@@ -1,0 +1,44 @@
+{
+  "model_id": "/home/ailab/dev/models/Llama/Llama-3.1-8B-Instruct",
+  "data_path": "data/math500.jsonl",
+  "num_examples": 500,
+  "prefix_ratios": [
+    1.0,
+    0.8,
+    0.6,
+    0.4
+  ],
+  "correct_counts": {
+    "1.0": 191,
+    "0.8": 80,
+    "0.6": 45,
+    "0.4": 25
+  },
+  "accuracies": {
+    "1.0": 0.382,
+    "0.8": 0.16,
+    "0.6": 0.09,
+    "0.4": 0.05
+  },
+  "avg_rougeL_f": {
+    "1.0": 0.0,
+    "0.8": 0.053566587995963366,
+    "0.6": 0.09885223227527508,
+    "0.4": 0.12781529506669456
+  },
+  "no_boxed_counts": {
+    "1.0": 88,
+    "0.8": 130,
+    "0.6": 122,
+    "0.4": 120
+  },
+  "no_boxed_ratios": {
+    "1.0": 0.176,
+    "0.8": 0.26,
+    "0.6": 0.244,
+    "0.4": 0.24
+  },
+  "max_new_tokens": 2048,
+  "temperature": 0.0,
+  "inference_engine": "vllm"
+}

@@ -21,6 +21,7 @@ MODELS_DIR = Path(__file__).parent / "models"
 AVAILABLE_MODELS = {
     "Llama-3.1-8B-Instruct": ("meta-llama/Llama-3.1-8B-Instruct", "Llama", "Llama-3.1-8B-Instruct"),
     "Llama-3.2-1B": ("meta-llama/Llama-3.2-1B", "Llama", "Llama-3.2-1B"),
+    "Llama-3.2-1B-Instruct": ("meta-llama/Llama-3.2-1B-Instruct", "Llama", "Llama-3.2-1B-Instruct"),
     "Qwen2.5-1.5B": ("Qwen/Qwen2.5-1.5B", "Qwen2.5", "Qwen2.5-1.5B"),
     "Qwen2.5-Math-7B-Instruct": ("Qwen/Qwen2.5-Math-7B-Instruct", "Qwen2.5", "Qwen2.5-Math-7B-Instruct"),
 }

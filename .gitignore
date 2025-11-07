@@ -4,16 +4,15 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
-venv/
-ENV/
-build/
-dist/
 *.egg-info/
+dist/
+build/
+*.egg
 
-# Documentation - exclude all MD files except README
-*.md
-!README.md
+# Virtual environments
+venv/
+env/
+ENV/
 
 # IDE
 .vscode/
@@ -22,17 +21,29 @@ dist/
 *.swo
 *~
 
-# OS
-.DS_Store
-Thumbs.db
+# Jupyter Notebook
+.ipynb_checkpoints
 
-# Jupyter
-.ipynb_checkpoints/
+# Documentation (ignore all markdown except README.md)
+*.md
+!README.md
 
-# Environment
-.env
+# Model files (large, downloaded separately)
+models/
+
+# Training outputs and checkpoints (large, generated during training)
+Distillation/out/students/
+Distillation/logs/
+
+# Teacher generation outputs (large, can be regenerated)
+Distillation/out/*_teacher_kd.jsonl
+Distillation/out/*_teacher_kd_gpu*.jsonl
+
+# Temporary/test files
+*.tmp
 *.log
+.DS_Store
 
-# Models - large files and symlinks
-models/*/
-!models/.gitkeep
+# Evaluation prediction files (optional - keep JSON summaries, predictions can be regenerated)
+# Uncomment if you want to exclude the large prediction JSONL files:
+# Distillation/out/*_preds.jsonl
